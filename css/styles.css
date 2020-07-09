@@ -60,6 +60,10 @@ color: inherit;
 
 /* Header */
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header .container {
   width: 1200px;
   display: flex;
