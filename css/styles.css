@@ -188,7 +188,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border: 0px;
 border-radius: 4px;
 
-
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -434,13 +433,12 @@ margin-right: 30px;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px; 
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-contacts {
-  margin-top: 60px;
-  margin-bottom: 60px;
   margin-right: 69px;
-  width: 231px;
 }
 
 .footer-logo {
@@ -470,8 +468,10 @@ margin-bottom: 9px;
 }
 
 .join-section {
-  margin-top: 72px;
-  margin-bottom: 100px;
+  /* margin-top: 72px;
+  margin-bottom: 100px; */
+  padding-top: 12px;
+  padding-bottom: 40px;
   margin-right: 90px;
   width: 206px;
 }
@@ -510,8 +510,10 @@ margin-bottom: 9px;
 } 
 
 .subscribe-container {
-  margin-top: 72px;
-  margin-bottom: 94px;
+  /* margin-top: 72px;
+  margin-bottom: 94px; */
+  padding-top: 12px;
+  padding-bottom: 34px;
   width: 570px;
 }
 
@@ -567,7 +569,6 @@ Main Section
   padding-top: 6px;
   padding-right: 22px;
   padding-left: 22px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 0px;
   border-radius: 4px;
 
@@ -587,13 +588,8 @@ Main Section
 .portfolio-btn:focus,
 .portfolio-btn:hover {
   color: var(--darkbackground-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   background-color: var(--accent-color);
-}
-
-.portfolio-list-link:focus,
-.portfolio-list-link:hover {
-  background-color: var(--accent-color);
-  /* Временно */
 }
 
 .portfolio-list {
@@ -611,10 +607,16 @@ margin-right: 30px;
 
 .portfolio-list-link {
   display: block;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 1px #EEEEEE;
+  border: 1px solid #EEEEEE;
   width: 370px;
   padding-bottom: 20px;
+}
+
+.portfolio-list-link:focus,
+.portfolio-list-link:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: var(--accent-color);
+  /* Временно */
 }
 
 .portfolio-list-link img {
